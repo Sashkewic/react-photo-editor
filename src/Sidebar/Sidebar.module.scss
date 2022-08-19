@@ -1,0 +1,32 @@
+.sidebar_item {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(214, 184, 255);
+    padding: 15px;
+    position: relative;
+    transition: background-color 0.15s;
+
+    &:hover,
+    .sidebar_item:focus {
+        background-color: hsl(265, 100%, 76%);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        bottom: 0;
+        height: 1px;
+        background-color: hsl(265, 100%, 46%);
+    }
+
+    &:last-child::after {
+        display: none;
+    }
+}
+
+.sidebar_item_active {
+    background-color: hsl(265, 100%, 70%);
+}
