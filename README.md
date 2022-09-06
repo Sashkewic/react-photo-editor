@@ -23,5 +23,4 @@ Version from 08/19/2022:
 <strong>Планы на ближайшее обновление: / Plans for the next update: </strong>
 1. Реализовать выбор своего изображение / Realize the choice of your image
 2. Загрузить измененную фоторедактором изображение / Upload the image modified by the photo editor
-
 <s>3. Добавить одну или несколько фильтров в редактор / Add one or more filters to the photo editor</s>
